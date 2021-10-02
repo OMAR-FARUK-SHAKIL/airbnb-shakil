@@ -1,6 +1,7 @@
 import React from 'react'
 import './SearchPage.css'
 import {Button, SearchResult} from '../GetComponents'
+
 const data = [
     {
         id: 1,
