@@ -22,7 +22,7 @@ function BecomeHost() {
                 </article>
             </a>
             <div className="hosting">
-                <Link className="tryHosting" to="/login">Try Hosting</Link>
+                <Link className="tryHosting " to="/login">Try Hosting</Link>
             </div>
         </section>
     )
