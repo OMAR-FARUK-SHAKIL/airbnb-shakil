@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './BecomeHost.css'
 
 function BecomeHost() {
@@ -20,6 +21,9 @@ function BecomeHost() {
                     </div>
                 </article>
             </a>
+            <div className="hosting">
+                <Link className="tryHosting" to="/login">Try Hosting</Link>
+            </div>
         </section>
     )
 }

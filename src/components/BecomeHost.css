@@ -20,3 +20,31 @@
     color: var(--clr-white);
     margin-left: 10rem;
 }
+
+.tryHosting{
+    border:2px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(226, 66, 66);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 300px;
+    margin-left: 300px;
+    align-items: center;
+}
+.tryHosting:hover{
+    border:2px;
+    color:rgb(238, 39, 39);
+    background-color: rgb(255, 253, 253);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 300px;
+    margin-left: 300px;
+    align-items: center;
+}
+/* .hosting{
+    background-color: rgb(243, 41, 41);
+}
+.hosting:hover{
+    background-color: rgb(255, 255, 255);
+    color:red;
+} */

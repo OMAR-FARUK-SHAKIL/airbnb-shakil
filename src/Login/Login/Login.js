@@ -2,12 +2,12 @@ import React, { useContext } from 'react';
 import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from './firebase.config';
-import { UserContext } from '../../../App';
+import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router-dom';
-import LoginBg from '../../../images/diana-polekhina-BUfaFc4L8V0-unsplash.jpg';
+import LoginBg from '../../images/loginbg.jpg';
 
 const Login = () => {
-  const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   const history = useHistory();
   const location = useLocation();
   const { from } = location.state || { from: { pathname: "/" } };
@@ -44,7 +44,7 @@ const Login = () => {
       
         <div className="w-50 mx-auto justify-content-center text-center mt-5">
           <img style={{height:'300px'}}  src={LoginBg} alt=""/>
-          <h2>Vaccine At Home Service</h2>
+          <h2>Welcome to Airbnb</h2>
           <h5>Login Please...</h5>
           <div className="from-group mt-5">
             <button className="btn btn-info" onClick={handleGoogleSignIn}>Login With Google</button>
